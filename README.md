@@ -20,7 +20,6 @@ Chrome Telegram Message Sender is a ReactJS-based Chrome extension that allows y
 
 Before you begin, ensure you have met the following requirements:
 
-- [Node.js](https://nodejs.org/) installed on your development machine.
 - [Google Chrome](https://www.google.com/chrome/) installed on your computer.
 
 ## Installation
@@ -28,7 +27,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone this repository to your local machine:
 
    ```shell
-   git clone https://github.com/YourUsername/Chrome-Telegram-Message-Sender.git
+   git clone https://github.com/chachajona/Chrome-Telegram-Message-Sender.git
    ```
 
 2. Navigate to the project directory:
@@ -85,7 +84,7 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 ## Support
 
-If you encounter any issues or have questions, feel free to [create an issue](https://github.com/YourUsername/Chrome-Telegram-Message-Sender/issues).
+If you encounter any issues or have questions, feel free to [create an issue](https://github.com/chachajona/Chrome-Telegram-Message-Sender/issues).
 
 ## Acknowledgments
 
