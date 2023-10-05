@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# Chrome Telegram Message Sender
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub](https://img.shields.io/github/license/chachajona/Chrome-Telegram-Message-Sender)
+![GitHub](https://img.shields.io/github/stars/chachajona/Chrome-Telegram-Message-Sender?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/chachajona/Chrome-Telegram-Message-Sender)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Chrome Telegram Message Sender is a ReactJS-based Chrome extension that allows you to send messages through the Telegram API directly from your browser. It provides a convenient way to automate sending messages, making it useful for various use cases such as notifications, reminders, or alerts.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Send messages through the Telegram API.
+- Easy-to-use interface integrated into the Chrome browser.
+- Customizable message content and recipient.
+- Supports sending messages to both individuals and groups.
+- Secure and authenticated communication with the Telegram API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+Before you begin, ensure you have met the following requirements:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Node.js](https://nodejs.org/) installed on your development machine.
+- [Google Chrome](https://www.google.com/chrome/) installed on your computer.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository to your local machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```shell
+   git clone https://github.com/YourUsername/Chrome-Telegram-Message-Sender.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+   ```shell
+   cd Chrome-Telegram-Message-Sender
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install the project dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```shell
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Build the React app:
 
-## Learn More
+   ```shell
+   npm run build
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Open Google Chrome.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Go to `chrome://extensions/` in your Chrome browser.
 
-### Code Splitting
+4. Enable "Developer mode" in the top right corner.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5. Click the "Load unpacked" button.
 
-### Analyzing the Bundle Size
+6. Select the `build` folder from your local repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+7. The Chrome extension icon should now appear in your Chrome toolbar.
 
-### Making a Progressive Web App
+8. Click on the extension icon to open the message sender.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+9. Configure the recipient and message content.
 
-### Advanced Configuration
+10. Click the "Send" button to send your message.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Configuration
 
-### Deployment
+To configure the extension, you can modify the following settings:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Telegram API Token**: Obtain your Telegram API token from the [Telegram BotFather](https://core.telegram.org/bots#botfather). Replace the placeholder token in the code with your actual token.
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! If you would like to contribute to this project, please follow the [Contributing Guidelines](CONTRIBUTING.md).
+
+## Support
+
+If you encounter any issues or have questions, feel free to [create an issue](https://github.com/YourUsername/Chrome-Telegram-Message-Sender/issues).
+
+## Acknowledgments
+
+- This project was inspired by the need for a simple Chrome extension to send Telegram messages programmatically.
+
+## Disclaimer
+
+This project is for educational and personal use only. Be aware of Telegram's terms of service and respect the privacy of others when using this extension.
+
+---
+
+Happy messaging with Chrome Telegram Message Sender! :mailbox_with_mail:
